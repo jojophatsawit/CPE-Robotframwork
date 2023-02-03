@@ -1,0 +1,49 @@
+#################### ห้องปฏิบัติการ ########################
+***Keywords***
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการโปรแกรมคอมพิวเตอร์
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-208"]/a              10
+    Click link                          xpath=//*[@id="mega-menu-item-208"]/a
+
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการสถาปัตยกรรมคอมพิวเตอร์และคอมพิวเตอร์ฝั่งตัว
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-1540"]/a             10
+    Click link                          xpath=//*[@id="mega-menu-item-1540"]/a
+
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการไฟฟ้าและอิเล็กทรอนิกส์
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-196"]/a             10
+    Click link                          xpath=//*[@id="mega-menu-item-196"]/a
+
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการไมโครโพรเซสเซอร์และการจำลอง
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-398"]/a             10
+    Click link                          xpath=//*[@id="mega-menu-item-398"]/a
+
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการเครือข่ายคอมพิวเตอร์
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-210"]/a             10
+    Click link                          xpath=//*[@id="mega-menu-item-210"]/a
+
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการระบบปฏิบัติการและคอมพิวเตอร์แม่ข่าย
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-205"]/a             10
+    Click link                          xpath=//*[@id="mega-menu-item-205"]/a
+    
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการระบบฐานข้อมูล
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-831"]/a             10
+    Click link                          xpath=//*[@id="mega-menu-item-831"]/a
+
+ไปยังห้องปฏิบัติการ : ห้องปฏิบัติการปัญญาประดิษฐ์
+    Click link                          https://www.cpe.eng.rmutp.ac.th/laboratory/
+    Sleep                               0.2
+    Wait Until Element Is Enabled       xpath=//*[@id="mega-menu-item-1944"]/a             10
+    Click link                          xpath=//*[@id="mega-menu-item-1944"]/a

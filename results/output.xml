@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20230203 13:18:06.930" rpa="false" schemaversion="3">
+<suite id="s1" name="CPE-Robotframework" source="C:\Users\jojop\Desktop\CPE-Robotframework">
+<suite id="s1-s1" name="Packages" source="C:\Users\jojop\Desktop\CPE-Robotframework\Packages">
+<suite id="s1-s1-s1" name="TestScripts" source="C:\Users\jojop\Desktop\CPE-Robotframework\Packages\TestScripts">
+<suite id="s1-s1-s1-s1" name="Download" source="C:\Users\jojop\Desktop\CPE-Robotframework\Packages\TestScripts\Download">
+<suite id="s1-s1-s1-s1-s1" name="Download" source="C:\Users\jojop\Desktop\CPE-Robotframework\Packages\TestScripts\Download\Download.robot">
+<kw name="Run Keywords" library="BuiltIn" type="SETUP">
+<arg>Go to website</arg>
+<arg>AND</arg>
+<arg>Go to Homepage</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<kw name="Go to website" library="commom">
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<arg>0.8</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20230203 13:18:07.300" endtime="20230203 13:18:07.300"/>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${CONFIG_URL}</arg>
+<arg>${CONFIG_BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230203 13:18:07.301" level="INFO">Opening browser 'chrome' to base url 'https://www.cpe.eng.rmutp.ac.th/'.</msg>
+<status status="PASS" starttime="20230203 13:18:07.301" endtime="20230203 13:18:10.786"/>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230203 13:18:10.786" endtime="20230203 13:18:11.717"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:07.300" endtime="20230203 13:18:11.717"/>
+</kw>
+<kw name="Go to Homepage" library="commom">
+<kw name="Click Element" library="Selenium2Library">
+<arg>Xpath=//*[@id="mega-menu-item-111"]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230203 13:18:11.720" level="INFO">Clicking element 'Xpath=//*[@id="mega-menu-item-111"]/a'.</msg>
+<status status="PASS" starttime="20230203 13:18:11.718" endtime="20230203 13:18:14.580"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:11.717" endtime="20230203 13:18:14.580"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:07.299" endtime="20230203 13:18:14.582"/>
+</kw>
+<test id="s1-s1-s1-s1-s1-t1" name="ตรวจสอบข้อมูลหน้าดาวน์โหลด" line="12">
+<kw name="ไปยังหน้าดาวน์โหลด" library="Download">
+<kw name="Click Link" library="Selenium2Library">
+<arg>https://www.cpe.eng.rmutp.ac.th/download/</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230203 13:18:14.587" level="INFO">Clicking link 'https://www.cpe.eng.rmutp.ac.th/download/'.</msg>
+<status status="PASS" starttime="20230203 13:18:14.585" endtime="20230203 13:18:17.800"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:14.585" endtime="20230203 13:18:17.800"/>
+</kw>
+<kw name="เริ่มทำการตรวจสอบข้อมูลหน้าดาวน์โหลด" library="Download">
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<arg>xpath=//*[contains(@class, 'entry-header')]//*[text() = 'ดาวน์โหลด']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20230203 13:18:17.803" endtime="20230203 13:18:19.690"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:17.802" endtime="20230203 13:18:19.690"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:14.582" endtime="20230203 13:18:19.691"/>
+</test>
+<test id="s1-s1-s1-s1-s1-t2" name="ทดสอบดาวโหลดไฟล์ข้อมูล" line="15">
+<kw name="วศ.01 แบบขอสอบหัวข้อปริญญานิพนธ์ : docx" library="Download">
+<kw name="Click Link" library="Selenium2Library">
+<arg>http://www.cpe.eng.rmutp.ac.th/docs/en01.docx</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230203 13:18:19.700" level="INFO">Clicking link 'http://www.cpe.eng.rmutp.ac.th/docs/en01.docx'.</msg>
+<status status="PASS" starttime="20230203 13:18:19.699" endtime="20230203 13:18:22.217"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:19.697" endtime="20230203 13:18:22.217"/>
+</kw>
+<kw name="วศ.01 แบบขอสอบหัวข้อปริญญานิพนธ์ : doc" library="Download">
+<kw name="Click Link" library="Selenium2Library">
+<arg>http://www.cpe.eng.rmutp.ac.th/docs/en01.doc</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230203 13:18:22.219" level="INFO">Clicking link 'http://www.cpe.eng.rmutp.ac.th/docs/en01.doc'.</msg>
+<status status="PASS" starttime="20230203 13:18:22.218" endtime="20230203 13:18:24.745"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:22.218" endtime="20230203 13:18:24.745"/>
+</kw>
+<kw name="วศ.01 แบบขอสอบหัวข้อปริญญานิพนธ์ : PDF" library="Download">
+<kw name="Click Link" library="Selenium2Library">
+<arg>http://www.cpe.eng.rmutp.ac.th/docs/en01.pdf</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230203 13:18:24.747" level="INFO">Clicking link 'http://www.cpe.eng.rmutp.ac.th/docs/en01.pdf'.</msg>
+<status status="PASS" starttime="20230203 13:18:24.747" endtime="20230203 13:18:27.290"/>
+</kw>
+<kw name="Get Window Handles" library="Selenium2Library">
+<arg>@{Window1}</arg>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="PASS" starttime="20230203 13:18:27.290" endtime="20230203 13:18:28.109"/>
+</kw>
+<kw name="Switch Window" library="Selenium2Library">
+<arg>@{Window1}</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20230203 13:18:28.109" endtime="20230203 13:18:30.565"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:24.746" endtime="20230203 13:18:30.565"/>
+</kw>
+<status status="PASS" starttime="20230203 13:18:19.694" endtime="20230203 13:18:30.566"/>
+</test>
+<status status="PASS" starttime="20230203 13:18:06.985" endtime="20230203 13:18:30.568"/>
+</suite>
+<status status="PASS" starttime="20230203 13:18:06.978" endtime="20230203 13:18:30.571"/>
+</suite>
+<status status="PASS" starttime="20230203 13:18:06.972" endtime="20230203 13:18:30.574"/>
+</suite>
+<status status="PASS" starttime="20230203 13:18:06.967" endtime="20230203 13:18:30.577"/>
+</suite>
+<status status="PASS" starttime="20230203 13:18:06.938" endtime="20230203 13:18:30.580"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="CPE-Robotframework">CPE-Robotframework</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Packages">CPE-Robotframework.Packages</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s1" name="TestScripts">CPE-Robotframework.Packages.TestScripts</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s1-s1" name="Download">CPE-Robotframework.Packages.TestScripts.Download</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s1-s1-s1" name="Download">CPE-Robotframework.Packages.TestScripts.Download.Download</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20230101 21:07:18.283" rpa="false" schemaversion="3">
+<suite id="s1" name="Homepage" source="c:\Users\jojop\Desktop\CPE-Robotframework\Packages\TestScripts\Homepage\Homepage.robot">
+<test id="s1-t1" name="Open to website" line="10">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>https://www.cpe.eng.rmutp.ac.th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230101 21:07:18.590" level="INFO">Opening browser 'chrome' to base url 'https://www.cpe.eng.rmutp.ac.th/'.</msg>
+<status status="PASS" starttime="20230101 21:07:18.589" endtime="20230101 21:07:21.325"/>
+</kw>
+<status status="PASS" starttime="20230101 21:07:18.588" endtime="20230101 21:07:21.326"/>
+</test>
+<status status="PASS" starttime="20230101 21:07:18.291" endtime="20230101 21:07:21.328"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Homepage">Homepage</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230101 21:07:18.582" level="ERROR">Error in file 'c:\Users\jojop\Desktop\CPE-Robotframework\Packages\TestScripts\Homepage\Homepage.robot' on line 4: Resource file 'C:\Users\jojop\Desktop\CPE-Robotframework\Utillties\common.resource' does not exist.</msg>
+<msg timestamp="20230101 21:07:18.585" level="WARN">Imported resource file 'C:\Users\jojop\Desktop\CPE-Robotframework\Resources\POM\Homepage\Homepage.resource' is empty.</msg>
+</errors>
+</robot>
