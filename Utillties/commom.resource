@@ -11,4 +11,4 @@ Go to website
     Open Browser                        ${CONFIG_URL}           ${CONFIG_BROWSER}
     Maximize Browser Window
 Go to Homepage
-    Click Element                       Xpath=//*[@id="mega-menu-item-111"]/a
+    Go to                               https://www.cpe.eng.rmutp.ac.th/

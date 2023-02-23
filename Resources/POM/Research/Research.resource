@@ -1,4 +1,10 @@
 #################### งานวิจัย/โครงงาน ########################
 ***Keywords***
 ไปยังหน้างานวิจัย / โครงงาน
-    Click Element       Xpath=//*[@id="mega-menu-item-192"]/a
+    Click link                           https://www.cpe.eng.rmutp.ac.th/research_project/
+
+#################### Keywords สำหรับเรียกใช้การตรวจสอบ ################
+
+#################### หน้า งานวิจัย/โครงงาน ###############
+ตรวจสอบหน้า งานวิจัย/โครงงาน
+    Scroll Element Into View            xpath=//*[contains(@class, 'entry-header')]//*[text() = 'งานวิจัย / โครงงาน']
